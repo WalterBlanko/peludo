@@ -18,36 +18,56 @@
     <title>Ayuda a un peludo</title>
 </head>
 <body>
-    <header>
-        <div class="contenedor">
-            <h1 class="letras">ONG - AYUDA A UN PELUDO</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Delectus tenetur esse corrupti, mollitia quam sunt impedit 
-            in voluptatem cupiditate aliquam architecto saepe, ipsum 
-            perferendis aut, itaque at harum veritatis quidem.</p>
-        </div>
-        
-    </header>
-    <section>
-        <h2 class="letras">Nuestros integrantes</h2>
-        <ul>
-            <li>Persona 1 - cargo 1</li>
-            <li>Persona 2 - cargo 2</li>
-            <li>Persona 3 - cargo 3</li>
-            <li>Persona n - cargo n</li>
-        </ul>
-    </section>
-    <section>
-        <h2 class="letras">Nuestras secciones de ayuda:</h2>
-        <img src="#" alt="imagen gatos">
-        <a href="/gatos.html">Gatos</a>
-        <br>
-        <img src="#" alt="imagen perros"> 
-        <a href="/perros.html">Perros</a>
-    </section>
+    <div class="contenedor">
+        <nav>
+            <ul class="nav__menu">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="/gatos.html">Gatos</a></li>
+                <li><a href="/perros.html">Perros</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+        <div class="seccion">
+            <section class="seccion__first">
+                <h1>ong - ayuda a un peludo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum architecto consectetur blanditiis aliquam dolores 
+                    quidem repellendus. Voluptate vel quis dolore, cum nesciunt 
+                    nisi hic, sequi maiores sunt ipsum, veritatis nam?</p>
+                </br>
+            </section>
+            <section class="seccion__second">
+                <div class="imagenes">
+                    <a href="/perros.html">
+                        <img class="gatos" src="img/1.png" alt="imagen perros" >
+                        <div class="imagenes__informacion">
+                            <p class="a__texto">Perros</p>
+                        </div>
+                    </a>
+                
+                    <a href="/gatos.html">
+                        <img class="perros" src="img/2.png" alt="imagen gatos" >
+                        <div class="imagenes__informacion">
+                            <p class="a__texto">Gatos</p>
+                        </div>
+                    </a>
+                </div> <!-- .imagenes -->
 
+            </section>
+            <section class="seccion__thirth">
+                <h2>nuestros integrantes</h2>
+                <ul class="personas">
+                    <li>Persona 1 - Cargo 1</li>
+                    <li>Persona 2 - Cargo 2</li>
+                    <li>Persona 3 - Cargo 3</li>
+                    <li>Persona n - Cargo n</li>
+                </ul>
+            </section>
+        </div>
+    </div> <!-- .contenedor -->
 </body>
-<footer>
-    <h2>Creado por Victor Aponte y Lucas Rodriguez</h2>
+<footer class="footer">
+    <h2 class="footer__h2">Creado por Victor Aponte y Lucas Rodriguez</h2>
 </footer>
 </html>
